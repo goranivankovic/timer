@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Kdam+Thmor+Pro&family=Roboto+Mono&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+    cursor: pointer;
+}
+
+
+.main{
+    min-height: 100vh;
+    width: 100%;
+ 
+    display: flex;
+    align-self:center;
+    flex-direction: column;
+    align-items: center;
+   
+
+}
+
+.firstText{
+
+    height: 6vh;
+    width: 60%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 1.3rem;
+  border-bottom: 2px solid #0000b3;
+  
+}
+
+
+
+
+.button{
+    min-height: 4.5vh; 
+    width: 150px;
+    background-color: #0000b3;
+    border-radius: 6px;
+    color: white;
+  
+}
+
+
+  .button:hover{
+    transition: 600ms;
+    background-color: red;
+    color: white;
+}
+
+
+
+
+
+.thredText{
+
+    min-height: 44vh;
+    width: 60%;
+
+    display:  flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    font-size: 1rem;
+  border-top: 2px solid #0000b3;
+
+}
+
+
+.thredTextMainText{
+    font-size: 1rem;
+}
+
+
+.input{
+    height: 4vh;
+    width: 25%;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding-left: 15px;
+}
+
+
+
+.fourText{
+   min-height: 5vh;
+    font-size: 1.1rem;
+    color: black;
+    font-weight: 450;
+    text-align: left;
+}
+
+
+
+
+

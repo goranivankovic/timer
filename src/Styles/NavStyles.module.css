@@ -1,0 +1,253 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.main{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    min-height: 100vh;
+    width: 25%;
+    background-color: #0000b3;
+    color: aliceblue;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+
+ 
+  
+  
+   
+}
+
+.bars{
+    width: 85%;
+    min-height: 5vh;
+    font-size: 1.70rem;
+    display: flex;
+    justify-content: flex-end;
+ 
+
+    /* border: 1px solid white; */
+}
+
+.itemsAll{
+
+    width: 85%;
+    min-height: 77vh;
+    /* border: 1px solid white; */
+
+
+}
+
+.item1{
+    width: 85%;
+    min-height: 6vh;
+    font-size: 1.20rem;
+    border-bottom: 2px solid white;
+
+
+    
+}
+
+.item2{
+    width: 100%;
+    min-height:6vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.20rem;
+    border-bottom: 2px solid white;
+
+    /* border: 1px solid red; */
+    
+}
+
+.item2Drop{
+    width: 85%;
+    min-height:25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+  
+
+    /* border: 1px solid white; */
+
+}
+
+
+
+.item3{
+    width: 100%;
+    min-height:6vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.20rem;
+    border-bottom: 2px solid white;
+
+    /* border: 1px solid red; */
+}
+
+.item3Drop{
+    width: 85%;
+    min-height:25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    /* border: 1px solid white; */
+
+}
+
+
+
+
+
+
+.item4{
+    width: 100%;
+    min-height:6vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.20rem;
+    border-bottom: 2px solid white;
+
+    /* border: 1px solid red; */
+}
+
+.item4Drop{
+    width: 85%;
+    min-height:10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+
+    /* border: 1px solid white; */
+
+}
+
+
+
+
+
+.item5{
+    width:85%;
+    min-height:5vh;
+    /* border: 1px solid white; */
+  
+}
+.item5 button{
+    height: 4.5vh;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+ .item2Drop   div:hover{
+    color: red;
+    transition: 600ms;
+}
+
+.item3Drop   div:hover{
+    color: red;
+    transition: 600ms;
+}
+
+.item4Drop   div:hover{
+    color: red;
+    transition: 600ms;
+}
+
+
+.item5 button:hover{
+    color: white;
+    transition: 600ms;
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+.mainMiniBar{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    min-height: 100vh;
+    width: 3%;
+    background-color: #0000b3;
+    color: aliceblue;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+
+ 
+    padding-top: 30px;
+
+ 
+  
+  
+   
+}
+
+
+.bars2{
+    width: 100%;
+    min-height: 5vh;
+    font-size: 1.20rem;
+    display: flex;
+    justify-content: center;
+   
+
+    /* border: 1px solid white; */
+}
+
+
+.item1 a:hover{
+    color: 	 firebrick;
+    transition: 600ms;
+}
+
+.item2 a:hover{
+    color: 	 firebrick;
+    transition: 600ms;
+}
+
+.item3 a:hover{
+    color: 	 firebrick;
+    transition: 600ms;
+}
+
+.item4 a:hover{
+    color: 	 firebrick;
+    transition: 600ms;
+}
+

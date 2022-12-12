@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Kdam+Thmor+Pro&family=Roboto+Mono&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+    cursor: pointer;
+}
+
+
+.main{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+   
+    cursor: pointer;
+ 
+}
+
+.firstText{
+    height: 6vh;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+}
+
+
+.button{
+    min-height: 4.5vh; 
+    width: 100px;
+    background-color: #0000b3;
+    border-radius: 6px;
+    color: white;
+  
+}
+
+
+  .button:hover{
+    transition: 600ms;
+    background-color: red;
+    color: white;
+}
+
+
+
+.secondDiv{
+
+    min-height: 35vh;
+    width:45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+/* 
+    border: 1px solid red; */
+
+}
+
+
+.secondDivButtons{
+    min-height: 5vh; 
+    width: 130px;
+    background-color: #0000b3;
+    border-radius: 6px;
+    color: white;
+    font-size: 1rem;
+}
+
+
+.secondDivButtonsRed{
+    min-height: 5vh; 
+    width: 130px;
+    background-color: red;
+    border-radius: 6px;
+    color: white;
+    font-size: 1rem;
+}
+
+
+
+
+.secondDivButtons:hover{
+    transition: 600ms;
+    background-color: red;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+.empty{
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+/* 
+    border: 1px solid red; */
+}

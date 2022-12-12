@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Kdam+Thmor+Pro&family=Roboto+Mono&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+    cursor: pointer;
+}
+
+.main{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('../../Images/Worker.png');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+
+
+    
+}
+
+
+.firstText{
+    height: 6vh;
+    width: 50%;
+    display: flex;
+    font-size: 1.3rem;
+    align-items: center;
+ 
+   justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.secondText{
+
+    height: 6vh;
+    width: 50%;
+    display: flex;
+    font-size: 1.15rem;
+    align-items: center;
+   justify-content: center;
+
+    /* border: 1px solid red; */
+
+}
+
+
+.formDiv{
+    min-height: 23vh;
+    width:23%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    align-items: center;
+   justify-content: space-around;
+
+    border: 2px solid  #0000b3;
+}
+
+.form{
+    width: 80%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-weight: 450;
+
+
+}
+
+.inputField{
+    height: 3.5vh;
+    width: 80%;
+    padding-left:10px ;
+  
+}
+
+.twoButtons{
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid  #0000b3; */
+}
+
+
+
+.button{
+    min-height: 4vh; 
+    width: 100px;
+    background-color: #0000b3;
+    border-radius: 6px;
+    color: white;
+  
+}
+
+
+  .button:hover{
+    transition: 600ms;
+    background-color: black;
+    color: white;
+}
+
+
+.threedDiv{
+    height: 6vh;
+    width: 60%;
+    display: flex;
+    font-size: 1rem;
+    align-items: center;
+ 
+   justify-content: center;
+
+   color: red;
+
+    /* border: 1px solid red; */
+
+}

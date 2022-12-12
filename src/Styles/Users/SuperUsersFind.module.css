@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Kdam+Thmor+Pro&family=Roboto+Mono&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+    cursor: pointer;
+}
+
+
+.main{
+    min-height: 100vh;
+    width: 100%;
+ 
+    display: flex;
+    align-self:center;
+    flex-direction: column;
+    align-items: center;
+   
+
+}
+
+.firstText{
+
+    height: 6vh;
+    width: 80%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 1.3rem;
+  border-bottom: 2px solid #0000b3;
+  
+}
+
+.secondText{
+    min-height: 40vh;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 1rem;
+    
+
+    /* border: 2px solid #0000b3; */
+   
+  
+    
+   
+}
+
+
+.secondText div:hover{
+    color: red;
+   
+}
+
+
+
+.thredText{
+
+    
+    min-height: 30vh;
+    width: 80%;
+
+    display:  flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    font-size: 1rem;
+  border-top: 2px solid #0000b3;
+
+}
+
+.input{
+    height: 4vh;
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding-left: 15px;
+}
+
+
+.button{
+    min-height: 4.5vh; 
+    width: 150px;
+    background-color: #0000b3;
+    border-radius: 6px;
+    color: white;
+  
+}
+
+
+  .button:hover{
+    transition: 600ms;
+    background-color: green;
+    color: white;
+}
+
+
+
