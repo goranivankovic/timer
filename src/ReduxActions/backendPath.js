@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
-  path: 'https://check.ma-go.net',
+  path: 'http://check.ma-go.net',
 }
 
 export const backendPath = createSlice({
