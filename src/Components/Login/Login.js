@@ -45,7 +45,7 @@ async function sendPasswordValue(a){
    
 
 
-  const res= await axios.post(`${backPath}/api/admin/login`,{cardId},{withCredentials:true})
+  const res= await axios.post(`${backPath}/api/admin/login`,{cardId},{withCredentials:'true'})
 
 
   arrowVar = res.data.msg[1]
