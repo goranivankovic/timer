@@ -63,6 +63,10 @@ const navigate =useNavigate()
 
    navigate('/dashboard/admin/super')
 
+   console.log('====================================');
+   console.log(res);
+   console.log('====================================');
+
 
   
 

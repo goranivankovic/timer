@@ -52,6 +52,10 @@ async function sendPasswordValue(a){
  
 
   navigate('/dashboard')
+  console.log('====================================');
+  console.log(res);
+  console.log('====================================');
+
 
 
 
